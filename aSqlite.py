@@ -1,7 +1,7 @@
 import streamlit as st
 
 import sqlite3
-conn= sqlite3.connect('https://github.com/Ebin04/Streamlit/blob/main/ComfortData.db',check_same_thread=False)
+conn= sqlite3.connect('ComfortData.db',check_same_thread=False)
 cur=conn.cursor()
 
 
